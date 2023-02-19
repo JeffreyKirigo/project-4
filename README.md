@@ -26,11 +26,11 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 4. [app.py](/app.py) : contains the flask app
 5. [Dockerfile](/app.py): contains instructions to containerize the application
 6. [Makefile](/Makefile) : contains instructions for environment setup and lint tests
-7. [requirements.txt](project-4/requirements.txt): list of required dependencies
-8. [run_docker.sh](project-4/run_docker.sh): bash script to build Docker image and run the application in a Docker container
-9. [upload_docker.sh](project-4/upload_docker.sh): bash script to upload the built Docker image to Dockerhub
-10. [run_kubernetes.sh](project-4/run_kubernetes.sh): bash script to run the application in a Kubernetes cluster
-11. [make_prediction.sh](project-4/make_prediction.sh): bash script to make predictions against the Docker container and k8s cluster
+7. [requirements.txt](/requirements.txt): list of required dependencies
+8. [run_docker.sh](/run_docker.sh): bash script to build Docker image and run the application in a Docker container
+9. [upload_docker.sh](/upload_docker.sh): bash script to upload the built Docker image to Dockerhub
+10. [run_kubernetes.sh](/run_kubernetes.sh): bash script to run the application in a Kubernetes cluster
+11. [make_prediction.sh](/make_prediction.sh): bash script to make predictions against the Docker container and k8s cluster
 
 ## Setup the Environment
 
