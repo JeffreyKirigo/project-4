@@ -1,0 +1,16 @@
+<paste log output from Kubernetes-mediated prediction, here>(.devops-venv) kirigo@kirigo-Flex:~/Desktop/udacity/project-ml-microservice-kubernetes$ ./run_kubernetes.sh 
+Error from server (AlreadyExists): pods micro-app already exists
+NAME        READY   STATUS    RESTARTS   AGE
+micro-app   1/1     Running   0          13m
+Forwarding from 127.0.0.1:8000 -> 80
+Handling connection for 8000
+
+
+kirigo@kirigo-Flex:~/Desktop/udacity/project-ml-microservice-kubernetes$ ./make_prediction.sh 
+Port: 8000
+{
+  prediction: [
+    20.35373177134412
+  ]
+}
+
