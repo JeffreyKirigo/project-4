@@ -20,12 +20,12 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 ## Description of folders and files in the repo  
 
-1. [.circleci](project-4/.circleci): For the CircleCI build server
-2. [model_data](project-4/model_data) : this folder contains the pretrained `sklearn` model and housing csv files
-3. [output_txt_files](project-4/output_txt_files): folder contains sample output logs from running `./run_docker.sh` and `./run_kubernetes.sh`
-4. [app.py](project-4/app.py) : contains the flask app
-5. [Dockerfile](project-4/app.py): contains instructions to containerize the application
-6. [Makefile](project-4/Makefile) : contains instructions for environment setup and lint tests
+1. [.circleci](/.circleci): For the CircleCI build server
+2. [model_data](/model_data) : this folder contains the pretrained `sklearn` model and housing csv files
+3. [output_txt_files](/output_txt_files): folder contains sample output logs from running `./run_docker.sh` and `./run_kubernetes.sh`
+4. [app.py](/app.py) : contains the flask app
+5. [Dockerfile](/app.py): contains instructions to containerize the application
+6. [Makefile](/Makefile) : contains instructions for environment setup and lint tests
 7. [requirements.txt](project-4/requirements.txt): list of required dependencies
 8. [run_docker.sh](project-4/run_docker.sh): bash script to build Docker image and run the application in a Docker container
 9. [upload_docker.sh](project-4/upload_docker.sh): bash script to upload the built Docker image to Dockerhub
